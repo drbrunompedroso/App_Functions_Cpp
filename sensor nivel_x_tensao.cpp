@@ -14,7 +14,7 @@ main()
 {
 	while(1)
 	{
-		printf("\n SENSOR VALUE = ");
+		printf("\n SENSOR VALUE(V) = ");
 		scanf("%f", &sensor);
 		result=  calc_sensor(sensor);
 		printf(" \n LEVEL VALUE (L) = %.2f", result);
